@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Yuji+Hentaigana+Akari&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left bottom, #26d3b4, #22c79d, #25bb85, #2caf6d, #33a355);
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.title{
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#logo {
+    width: 50px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.amenu {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+
+.amenu:hover{
+    color: black;
+    background-color: white;
+    transition: ease-in 0.5s;
+
+}
+.lenguajes{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.logospr{
+   width: 250px ;
+   margin-right: 50px;
+
+}
+.ejemplos{
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ejemplos h2{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    color: rgb(23, 128, 189)
+}
+
+footer{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+.docs{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.docs a{
+    color: white;
+    background-color: #25bb85;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.docs a:hover{
+    color: white;
+    background-color: #2584bb;
+    padding: 10px;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  }
+  
+  .btn:active {
+    scale: 0.92;
+  }
+  
+  .btn:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
