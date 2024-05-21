@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codecrafters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./src/img/term.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./src/img/terminal.png" alt="Logo">
+        </div>
+        <div class="title">
+            <h1>Codecrafters</h1>
+        </div>
+        <ul>
+            <li><a class="amenu" href="#">Inicio</a></li>
+            <li><a class="amenu" href="#">Servicios</a></li>
+            <li><a class="amenu" href="#">Acerca de Nosotros</a></li>
+            <li><a class="amenu" href="#">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="lenguajes">
+            <div class="ejemplos">
+                <div>
+                    <img class="logospr" src="./src/img/Python.png" alt="Logo de Python">
+                </div>
+                <div>
+                <h2>Python</h2>
+                <p>
+                    Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, se utiliza para desarrollar aplicaciones de todo tipo, por ejemplo: Instagram, Netflix, Spotify, Panda3D, entre otros.Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.
+                    Administrado por Python Software Foundation, posee una licencia de código abierto, denominada Python Software Foundation License.Python se clasifica constantemente como uno de los lenguajes de programación más populares. 
+                </p>
+                <h3>Hola mundo en Python</h3>
+                <code>
+                    print("Hola Mundo") <br>
+                </code>
+                <div class="docs">
+                    <a href="https://docs.python.org/3/">Documentación de Python</a>
+                </div>
+               </div>
+            </div>
+            <div class="ejemplos">
+                <div>
+                    <img class="logospr" src="./src/img/Fortran.png" alt="Logo de Fortran">
+                </div>
+                <div>
+                    <h2>Fortran</h2>
+                    <p>
+                        Fortran es un lenguaje de programación de alto nivel de propósito general, procedural e imperativo, que está especialmente adaptado al cálculo numérico y a la computación científica. Desarrollado originalmente por IBM en 1957 para el equipo IBM 704, y usado para aplicaciones científicas y de ingeniería, el FORTRAN vino a dominar esta área de la programación desde el principio y ha estado en uso continuo por más de medio siglo en áreas de cómputo intensivo tales como la predicción numérica del tiempo, análisis de elementos finitos, dinámica de fluidos computacional (CFD), física computacional y química computacional. Es uno de los lenguajes más populares en el área de la computación de alto rendimiento y es el lenguaje usado para programas que evalúan el desempeño (benchmark) y el ranking de los supercomputadores más rápidos del mundo. 
+                    </p>
+                    <h3>Hola mundo en Fortran</h3>
+                    <code>
+                        program hello <br>
+                        write(6,*)'Hello world' <br>
+                        stop <br>
+                        end <br>
+                    </code>
+                    <div class="docs">
+                        <a href="https://www.fortran90.org/">Documentación de Fortran</a>
+                    </div>
+                </div>
+            </div>   
+            <div class="ejemplos">
+                <div>
+                    <img class="logospr" src="./src/img/Cobol.png" alt="Logo de Cobol">
+                </div>
+                <div>
+                    <h2>Cobol</h2>
+                <p>
+                    El lenguaje COBOL fue creado en el año 1959 con el objetivo de crear un lenguaje de programación universal que pudiera ser usado en cualquier ordenador y que estuviera orientado principalmente a los negocios, es decir, a la llamada informática de gestión. COBOL se utiliza principalmente en sistemas comerciales, financieros y administrativos para empresas y gobiernos. COBOL todavía se usa ampliamente en aplicaciones implementadas en ordenadores centrales, como trabajos de lote y procesamiento de transacciones a gran escala. Sin embargo, debido a su popularidad decreciente y al retiro de los programadores COBOL experimentados, los programas se están migrando a nuevas plataformas, reescribiéndolos en lenguajes modernos o reemplazándolos con paquetes de software. La mayor parte de la programación en COBOL ahora es puramente para mantener las aplicaciones existentes; sin embargo, muchas instituciones financieras grandes todavía estaban desarrollando nuevos sistemas en COBOL hasta 2006.
+                </p>
+                <h3>Hola mundo en Cobol</h3>
+                <code>
+                    identification division. <br>
+                    program-id. helloworld. <br>
+                    author. alvarodeleon.net. <br>
+                    <br>
+                    environment division.
+                    configuration section.
+                    input-output section.
+                    <br>
+                    <br>
+                    data division.
+                    <br>
+                    <br>
+                    file section.
+                    <br>
+                    <br>
+                    working-storage section.
+                    <br>
+                    <br>
+                    77 mensaje picture x(32) value 'Hola Mundo!!!'.
+                    <br>
+                    <br>
+                    procedure division.
+                    <br>
+                    <br>
+                    display mensaje.
+                    <br>
+                    <br>
+                    stop run.
+                    <br>
+                </code>
+                <div class="docs">
+                    <a href="https://www.ibm.com/docs/en/i/7.1?topic=languages-cobol">Documentación de Cobol</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Locos por el Código ® | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
